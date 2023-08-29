@@ -4,3 +4,30 @@
 .img4{
   margin-top: -2rem;
 }
+.bg-image{
+  background-image: url('./images/branden-skeli-kQ0_flbwBI4-unsplash.jpg');
+  height: 81vh;
+  font-family: Roboto;
+}
+.main{
+  font-family: Roboto;
+}
+.button{
+  background: linear-gradient(45deg, #4338CA 0%, #5E52F3 100%);
+}
+.carrusel{
+  background: linear-gradient(45deg, #4338CA 0%, #5E52F3 100%)
+}
+@media (max-width: 767px){
+  .bg-image{
+    height: 100vh;
+  }
+}
+.foot{
+  font-family: Poppins !important;
+}
+.button2{
+  color: white;
+  font-family: Poppins !important;
+  background: linear-gradient(45deg, #4338CA 0%, #5E52F3 100%);
+}
