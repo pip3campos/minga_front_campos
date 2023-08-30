@@ -4,13 +4,13 @@ export default function App() {
   return (
     <>
       <div className='w-full text-white bg-image bg-cover'>
-        <header className='mb-36'>
+        <header>
           <nav className='flex justify-between p-4'>
             <img className='max-md:w-14 ms-4' src="./images/Menu.svg" alt="" />
             <img className='w-14 me-4' src="./images/Logo.png" alt="" />
           </nav>
         </header>
-        <div className='flex flex-col justify-center items-center gap-4'>
+        <div className='flex flex-col justify-center items-center gap-4 mt-1'>
           <h1 className='max-sm:hidden text-4xl md:text-5xl'>Your favorite comic book store ✨</h1>
           <h1 className='sm:hidden text-4xl text-center'>Your favorite comic book store</h1>
           <h2 className='max-sm:hidden text-xl md:text-2xl'>Explore our catalog to live the adventure of your life</h2>
