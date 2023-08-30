@@ -1,9 +1,11 @@
 import './App.css'
+import Main from './layouts/Main'
+import Index from './components/Index'
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <Main>
+    <Index />
+    </Main>
   )
 }
